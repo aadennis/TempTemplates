@@ -4,4 +4,4 @@ New-AzureRmResourceGroupDeployment -Name DWDeploy -ResourceGroupName DWRG `
 
 New-AzureRmResourceGroupDeployment -Name DWDeploy -ResourceGroupName DWRG -TemplateFile .\ref.json -storageAccountName "dwtry02" -virtualNetworkName DWvnn -networkInterfaceName DWnin -loadBalancerName DWlbn -adminUsername adguy -vmName DWvmn
 
-New-AzureRmResourceGroup -Name DWRG -Location "West Europe"
+New-AzureRmResourceGroup -Name DWRG -Location "UK South"

@@ -1,0 +1,7 @@
+New-AzureRmResourceGroupDeployment -Name DWDeployNoLB -ResourceGroupName DWRG `
+-TemplateFile .\ref2.json -storageAccountName "NoLB" -virtualNetworkName DWnolbvnn ` 
+-networkInterfaceName DWnolbnin -adminUsername adguy -vmName DWnolbvmn
+
+New-AzureRmResourceGroupDeployment -Name DWDeployNoLB -ResourceGroupName DWRG -TemplateFile .\ref2.json -storageAccountName "NoLB" -virtualNetworkName DWnolbvnn -networkInterfaceName DWnolbnin -adminUsername adguy -vmName DWnolbvmn
+
+New-AzureRmResourceGroup -Name DWRG -Location "West Europe"
