@@ -1,0 +1,196 @@
+#TYPE Microsoft.PowerShell.Commands.HistoryInfo
+"Id","CommandLine","ExecutionStatus","StartExecutionTime","EndExecutionTime"
+"1","cd C:\sandbox\","Completed","20/01/2017 21:19:34","20/01/2017 21:19:34"
+"2","ls","Completed","20/01/2017 21:19:35","20/01/2017 21:19:35"
+"3","mkdir Azure","Completed","20/01/2017 21:19:51","20/01/2017 21:19:51"
+"4","ls","Completed","20/01/2017 21:19:52","20/01/2017 21:19:52"
+"5","cd .\Azure\","Completed","20/01/2017 21:19:55","20/01/2017 21:19:55"
+"6","Install-Module AzureRM","Completed","20/01/2017 21:20:05","20/01/2017 21:20:15"
+"7","Add?AzureRmAccount","Completed","20/01/2017 21:20:30","20/01/2017 21:20:30"
+"8","Set-AzureRmContext","Completed","20/01/2017 21:20:51","20/01/2017 21:20:58"
+"9","Login-AzureRmAccount","Completed","20/01/2017 21:22:10","20/01/2017 21:22:54"
+"10","Set-AzureRmContext","Completed","20/01/2017 21:23:31","20/01/2017 21:23:31"
+"11","Set-AzureRmContext -SubscriptionName ""Visual Studio Ultimate with MSDN""","Completed","20/01/2017 21:23:49","20/01/2017 21:23:50"
+"12","$pwd = ConvertTo-SecureString -String ""Folly55Bergish""","Completed","20/01/2017 21:30:59","20/01/2017 21:30:59"
+"13","$pwd = ConvertTo-SecureString -String ""Folly55Bergish"" -AsPlainText","Completed","20/01/2017 21:31:08","20/01/2017 21:31:08"
+"14","$pwd = ConvertTo-SecureString -String ""Folly55Bergish"" ","Completed","20/01/2017 21:31:24","20/01/2017 21:31:24"
+"15","$pwd = ConvertTo-SecureString -String ""Folly55Bergish!"" ","Completed","20/01/2017 21:31:31","20/01/2017 21:31:31"
+"16","$pwd = ConvertTo-SecureString -AsPlainText ""asdfasfd""","Completed","20/01/2017 21:31:59","20/01/2017 21:31:59"
+"17","$pwd = Read-Host -AsSecureString ""Folly55Bergish""","Stopped","20/01/2017 21:32:41","20/01/2017 21:32:45"
+"18","$pwd = Read-Host -AsSecureString ","Completed","20/01/2017 21:32:49","20/01/2017 21:32:55"
+"19","$pwd = Read-Host -AsSecureString ","Completed","20/01/2017 21:34:53","20/01/2017 21:34:56"
+"20","$pwd = Read-Host -AsSecureString ","Completed","20/01/2017 21:35:04","20/01/2017 21:35:06"
+"21","FullDiscoSure7!","Completed","20/01/2017 21:35:12","20/01/2017 21:35:12"
+"22","New-AzureRmResourceGroupDeployment -Name DenResourceGroupDeployment ","Stopped","20/01/2017 21:35:45","20/01/2017 21:35:54"
+"23","-ResourceGroupName DenResourceGroup -TemplateFile .\azuredeploy.json ","Completed","20/01/2017 21:35:54","20/01/2017 21:35:54"
+"24","-storageAccountName denstorageaccount -adminUsername administrator99 ","Completed","20/01/2017 21:35:54","20/01/2017 21:35:54"
+"25","New-AzureRmResourceGroup -Name DenResourceGroup -Location ""West Europe""","Completed","20/01/2017 21:36:08","20/01/2017 21:36:11"
+"26","New-AzureRmResourceGroupDeployment -Name DenResourceGroupDeployment -ResourceGroupName DenResourceGroup -TemplateFile .\azuredeploy.json -storageAccountName denstorageaccount -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns","Completed","20/01/2017 21:38:13","20/01/2017 21:38:13"
+"27","ls","Completed","20/01/2017 21:38:27","20/01/2017 21:38:27"
+"28","New-AzureRmResourceGroupDeployment -Name DenResourceGroupDeployment -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageaccount -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns","Completed","20/01/2017 21:38:40","20/01/2017 21:38:42"
+"29","New-AzureRmResourceGroupDeployment -Name denrgdeploy -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageaccount -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns","Completed","20/01/2017 21:39:11","20/01/2017 21:39:54"
+"30","New-AzureRmResourceGroupDeployment -Name denrgdeploy -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageaccount -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns2","Completed","20/01/2017 21:40:13","20/01/2017 21:40:14"
+"31","New-AzureRmResourceGroupDeployment -Name denrgxdeploy -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageaccount -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns2","Completed","20/01/2017 21:40:30","20/01/2017 21:40:32"
+"32","New-AzureRmResourceGroupDeployment -Name denrgdeploy -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageacct -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns2","Completed","20/01/2017 21:41:00","20/01/2017 21:44:56"
+"33","New-AzureRmResourceGroupDeployment -Name denrgdeploy -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageacct -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns2","Completed","20/01/2017 22:12:51","20/01/2017 22:13:10"
+"34","New-AzureRmResourceGroupDeployment -Name denrgdeploy -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageacct -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns2","Completed","20/01/2017 22:14:23","20/01/2017 22:14:36"
+"35","New-AzureRmResourceGroupDeployment -Name denrgdeploy -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageacct -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns2","Completed","20/01/2017 22:15:05","20/01/2017 22:15:17"
+"36","New-AzureRmResourceGroupDeployment -Name denrgdeploy -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageacct -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns2","Completed","20/01/2017 22:15:47","20/01/2017 22:16:00"
+"37","New-AzureRmResourceGroupDeployment -Name denrgdeploy -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageacct -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns3","Completed","20/01/2017 22:16:05","20/01/2017 22:16:38"
+"38","New-AzureRmResourceGroupDeployment -Name denrgdeploy -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageacct -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns3","Completed","20/01/2017 22:17:40","20/01/2017 22:17:58"
+"39","New-AzureRmResourceGroupDeployment -Name denrgdeploy -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageacct -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns3","Completed","20/01/2017 22:18:07","20/01/2017 22:18:14"
+"40","New-AzureRmResourceGroupDeployment -Name denrgdeploy -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageacct -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns","Completed","20/01/2017 22:18:35","20/01/2017 22:18:48"
+"41","New-AzureRmResourceGroupDeployment -Name denrgdeploy -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageacct -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns2","Completed","20/01/2017 22:19:00","20/01/2017 22:19:07"
+"42","New-AzureRmResourceGroupDeployment -Name denrgdeploy -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageacct -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns3","Completed","20/01/2017 22:19:28","20/01/2017 22:19:36"
+"43","New-AzureRmResourceGroupDeployment -Name denrgdeploy -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageacct -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns3","Completed","20/01/2017 22:23:04","20/01/2017 22:23:16"
+"44","New-AzureRmResourceGroupDeployment -Name denrgdeploy -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageacct -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns3","Completed","20/01/2017 22:23:37","20/01/2017 22:23:44"
+"45","New-AzureRmResourceGroupDeployment -Name denrgdeploy -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageacct -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns3","Completed","20/01/2017 22:24:06","20/01/2017 22:24:18"
+"46","New-AzureRmResourceGroupDeployment -Name denrgdeploy -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageacct -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns3","Completed","20/01/2017 22:25:40","20/01/2017 22:25:52"
+"47","New-AzureRmResourceGroupDeployment -Name denrgdeploy -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageacct -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns3","Completed","20/01/2017 22:26:24","20/01/2017 22:26:37"
+"48","New-AzureRmResourceGroupDeployment -Name denrgdeploy -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageacct -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns3","Completed","20/01/2017 22:27:26","20/01/2017 22:27:38"
+"49","New-AzureRmResourceGroupDeployment -Name denrgdeploy -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageacct -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns3","Completed","20/01/2017 22:30:07","20/01/2017 22:30:14"
+"50","New-AzureRmResourceGroupDeployment -Name denrgdeploy -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageacct -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns3","Completed","20/01/2017 22:31:42","20/01/2017 22:31:50"
+"51","New-AzureRmResourceGroupDeployment -Name denrgdeploy -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageacct -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns3","Completed","20/01/2017 22:32:56","20/01/2017 22:33:09"
+"52","New-AzureRmResourceGroupDeployment -Name denrgdeploy -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageacct -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns3","Completed","20/01/2017 22:33:30","20/01/2017 22:33:49"
+"53","New-AzureRmResourceGroupDeployment -Name denrgdeploy -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageacct -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns3","Completed","20/01/2017 22:35:10","20/01/2017 22:35:18"
+"54","New-AzureRmResourceGroupDeployment -Name denrgdeploy -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageacct -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns3","Stopped","20/01/2017 22:36:16","20/01/2017 22:36:28"
+"55","New-AzureRmResourceGroupDeployment -Name denrgdeploy2 -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageacct -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns3","Completed","20/01/2017 22:36:36","20/01/2017 22:36:54"
+"56","New-AzureRmResourceGroupDeployment -Name denrgdeploy3 -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageacct3 -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns3","Stopped","20/01/2017 22:37:12","20/01/2017 22:37:41"
+"57","New-AzureRmResourceGroupDeployment -Name denrgdeploy4 -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageacct4 -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns4","Completed","20/01/2017 22:38:15","20/01/2017 22:38:49"
+"58","New-AzureRmResourceGroupDeployment -Name denrgdeploy5 -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageacct5 -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns5","Completed","20/01/2017 22:39:30","20/01/2017 22:40:14"
+"59","New-AzureRmResourceGroupDeployment -Name denrgdeploy51 -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageacct51 -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns51","Completed","20/01/2017 22:46:21","21/01/2017 09:39:20"
+"60","cd .\DoIt\","Completed","21/01/2017 21:38:58","21/01/2017 21:38:58"
+"61","Get-History","Completed","21/01/2017 21:39:03","21/01/2017 21:39:04"
+"62","xNew-AzureRmResourceGroupDeployment -Name denrgdeploy5 -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageacct5 -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns5","Completed","21/01/2017 21:39:24","21/01/2017 21:39:24"
+"63","New-AzureRmResourceGroupDeployment -Name denrgdeploy5 -ResourceGroupName DenResourceGroup -TemplateFile .\AzureTemplate.json -storageAccountName denstorageacct5 -adminUsername administrator99 -adminPassword $pwd -dnsNameforLBIP dendns5","Completed","21/01/2017 21:39:30","21/01/2017 21:39:30"
+"64","New-AzureRmResourceGroupDeployment -TemplateFile .\template.json","Stopped","21/01/2017 21:40:03","21/01/2017 21:40:08"
+"65","New-AzureRmResourceGroupDeployment -TemplateFile .\template.json","Stopped","21/01/2017 21:41:32","21/01/2017 21:43:44"
+"66","New-AzureRmResourceGroupDeployment -TemplateFile .\template.json","Completed","21/01/2017 21:43:45","21/01/2017 21:44:04"
+"67","New-AzureRmResourceGroupDeployment -TemplateFile .\template.json","Completed","21/01/2017 21:46:02","21/01/2017 21:46:47"
+"68","New-AzureRmResourceGroupDeployment -TemplateFile .\template.json","Completed","21/01/2017 21:47:56","21/01/2017 21:48:15"
+"69","New-AzureRmResourceGroupDeployment -TemplateFile .\template.json","Completed","21/01/2017 21:48:39","21/01/2017 21:48:54"
+"70","New-AzureRmResourceGroupDeployment -TemplateFile .\template.json","Stopped","21/01/2017 21:49:30","21/01/2017 21:49:34"
+"71","New-AzureRmResourceGroupDeployment -TemplateFile .\template.json","Completed","21/01/2017 21:49:35","21/01/2017 21:49:50"
+"72","New-AzureRmResourceGroupDeployment -TemplateFile .\template.json","Completed","21/01/2017 21:50:49","21/01/2017 21:51:02"
+"73","New-AzureRmResourceGroupDeployment -TemplateFile .\template.json","Stopped","21/01/2017 21:51:43","21/01/2017 22:05:53"
+"74","cd ..","Completed","21/01/2017 22:05:55","21/01/2017 22:05:55"
+"75",".\deploy.ps1","Stopped","21/01/2017 22:05:59","21/01/2017 22:09:21"
+"76",".\deploy.ps1","Failed","21/01/2017 22:10:12","21/01/2017 22:11:22"
+"77",".\deploy.ps1","Failed","21/01/2017 22:13:44","21/01/2017 22:14:33"
+"78",".\deploy.ps1","Failed","21/01/2017 22:35:27","21/01/2017 22:37:02"
+"79",".\deploy.ps1","Failed","21/01/2017 22:37:59","21/01/2017 22:39:01"
+"80",".\deploy.ps1","Failed","21/01/2017 23:39:36","21/01/2017 23:40:43"
+"81",".\deploy.ps1","Stopped","21/01/2017 23:42:44","21/01/2017 23:43:47"
+"82",".\deploy.ps1","Failed","21/01/2017 23:43:49","21/01/2017 23:46:23"
+"83",".\deploy.ps1","Failed","21/01/2017 23:49:09","21/01/2017 23:50:15"
+"84",".\deploy.ps1","Stopped","21/01/2017 23:51:33","21/01/2017 23:53:17"
+"85",".\deploy.ps1","Completed","21/01/2017 23:53:18","22/01/2017 00:00:12"
+"86",".\deploy.ps1","Completed","22/01/2017 00:00:51","22/01/2017 00:02:38"
+"87",".\deploy.ps1","Failed","22/01/2017 00:04:24","22/01/2017 00:05:31"
+"88",".\deploy.ps1","Stopped","22/01/2017 00:07:18","22/01/2017 00:07:36"
+"89","New-AzureRmResourceGroup -Name DWRG -Location ""UK South""","Completed","22/01/2017 08:48:49","22/01/2017 08:48:57"
+"90","New-AzureRmResourceGroup -Name DWRG -Location ""UK South""","Completed","22/01/2017 08:49:02","22/01/2017 08:49:04"
+"91","New-AzureRmResourceGroupDeployment -Name DWDeployment -ResourceGroupName DWRG -TemplateParameterFile .\x.json","Completed","22/01/2017 08:51:46","22/01/2017 08:51:46"
+"92","New-AzureRmResourceGroupDeployment -Name DWDeployment -ResourceGroupName DWRG -TemplateParameterFile .\MTemplate.json","Completed","22/01/2017 08:52:10","22/01/2017 08:52:10"
+"93","New-AzureRmResourceGroup -Name ExampleResourceGroup -Location ""West Europe""","Completed","22/01/2017 09:26:33","22/01/2017 09:26:34"
+"94","New-AzureRmResourceGroup -Name ExampleResourceGroup -Location ""West Europe""","Completed","22/01/2017 09:26:37","22/01/2017 09:26:39"
+"95","New-AzureRmResourceGroupDeployment -Name ExampleDeployment -ResourceGroupName ExampleResourceGroup `
+  -TemplateFile azuredeploy.json","Completed","22/01/2017 09:26:53","22/01/2017 09:26:53"
+"96","New-AzureRmResourceGroupDeployment -Name ExampleDeployment -ResourceGroupName ExampleResourceGroup `
+  -TemplateFile .\AzureTemplate.json","Stopped","22/01/2017 09:27:07","22/01/2017 09:28:11"
+"97","New-AzureRmResourceGroupDeployment -Name ExampleDeployment -ResourceGroupName ExampleResourceGroup `
+  -TemplateFile .\AzureTemplate.json ","Stopped","22/01/2017 09:28:23","22/01/2017 09:29:34"
+"98","New-AzureRmResourceGroupDeployment -Name ExampleDeployment -ResourceGroupName ExampleResourceGroup `
+  -TemplateFile .\AzureTemplate.json ","Stopped","22/01/2017 09:29:38","22/01/2017 09:34:07"
+"99","ls ","Completed","22/01/2017 09:34:10","22/01/2017 09:34:10"
+"100","New-AzureRmResourceGroup -Name ExampleResourceGroup -Location ""West Europe""","Completed","22/01/2017 09:34:43","22/01/2017 09:34:46"
+"101","New-AzureRmResourceGroupDeployment -Name ExampleDeployment -ResourceGroupName ExampleResourceGroup `
+  -TemplateFile azuredeploy.json","Completed","22/01/2017 09:35:04","22/01/2017 09:35:10"
+"102","New-AzureRmResourceGroupDeployment -Name ExampleDeployment -ResourceGroupName ExampleResourceGroup `
+  -TemplateFile azuredeploy.json","Completed","22/01/2017 09:35:15","22/01/2017 09:35:35"
+"103","New-AzureRmResourceGroupDeployment -Name ExampleDeployment -ResourceGroupName ExampleResourceGroup `
+  -TemplateFile azuredeploy.json","Completed","22/01/2017 09:35:51","22/01/2017 09:36:21"
+"104","New-AzureRmResourceGroupDeployment -Name ExampleDeployment -ResourceGroupName ExampleResourceGroup `
+  -TemplateFile azuredeploy.json","Completed","22/01/2017 09:36:51","22/01/2017 09:37:12"
+"105","New-AzureRmResourceGroupDeployment -Name ExampleDeployment -ResourceGroupName ExampleResourceGroup `
+  -TemplateFile azuredeploy.json","Completed","22/01/2017 09:37:32","22/01/2017 09:38:31"
+"106","New-AzureRmResourceGroupDeployment -Name ExampleDeployment -ResourceGroupName ExampleResourceGroup `
+  -TemplateFile azuredeploy.json ","Stopped","22/01/2017 09:38:41","22/01/2017 09:38:43"
+"107","New-AzureRmResourceGroupDeployment -Name ExampleDeployment -ResourceGroupName ExampleResourceGroup `
+  -TemplateFile azuredeploy.json -storageAccountName dwtry99","Completed","22/01/2017 09:38:56","22/01/2017 09:39:04"
+"108","New-AzureRmResourceGroupDeployment -Name ExampleDeployment -ResourceGroupName ExampleResourceGroup `
+  -TemplateFile azuredeploy.json -storageAccountName dwtry99b","Completed","22/01/2017 09:39:16","22/01/2017 09:39:44"
+"109","New-AzureRmResourceGroupDeployment -Name ExampleDeployment -ResourceGroupName ExampleResourceGroup `
+  -TemplateFile azuredeploy.json","Completed","22/01/2017 09:49:13","22/01/2017 09:49:28"
+"110","New-AzureRmResourceGroupDeployment -Name ExampleDeployment -ResourceGroupName ExampleResourceGroup `
+  -TemplateFile azuredeploy.json -storageAccountName ""dwtry99b""","Completed","22/01/2017 09:50:04","22/01/2017 09:50:12"
+"111","New-AzureRmResourceGroupDeployment -Name ExampleDeployment -ResourceGroupName ExampleResourceGroup `
+  -TemplateFile azuredeploy.json -storageAccountName ""dwtry99c""","Completed","22/01/2017 09:50:17","22/01/2017 09:50:50"
+"112","Get-History","Completed","22/01/2017 09:52:59","22/01/2017 09:53:01"
+"113","New-AzureRmResourceGroupDeployment -Name DWDeploy -ResourceGroupName DWRG `
+  -TemplateFile azuredeploy.json -storageAccountName ""dwtry99d""","Completed","22/01/2017 10:09:09","22/01/2017 10:09:37"
+"114","New-AzureRmResourceGroupDeployment -Name DWDeploy -ResourceGroupName DWRG `
+  -TemplateFile azuredeploy.json -storageAccountName ""dwtry99d""","Completed","22/01/2017 10:22:24","22/01/2017 10:22:25"
+"115","Get-History","Completed","22/01/2017 10:22:32","22/01/2017 10:22:34"
+"116","New-AzureRmResourceGroup -Name DWRG -Location ""UK South""","Completed","22/01/2017 10:22:42","22/01/2017 10:22:43"
+"117","Get-History","Completed","22/01/2017 10:22:52","22/01/2017 10:22:53"
+"118","New-AzureRmResourceGroupDeployment -Name DWDeploy -ResourceGroupName DWRG `
+  -TemplateFile azuredeploy.json -storageAccountName ""dwtry""","Completed","22/01/2017 10:23:10","22/01/2017 10:23:38"
+"119","Get-History","Completed","22/01/2017 10:27:29","22/01/2017 10:27:30"
+"120","xNew-AzureRmResourceGroup -Name DWRG -Location ""UK South""","Completed","22/01/2017 10:27:42","22/01/2017 10:27:43"
+"121","function prompt(){}","Completed","22/01/2017 10:27:53","22/01/2017 10:27:53"
+"122","New-AzureRmResourceGroup -Name DWRG -Location ""UK South""","Completed","22/01/2017 10:28:11","22/01/2017 10:28:11"
+"123","Get-History","Completed","22/01/2017 10:35:42","22/01/2017 10:35:43"
+"124","New-AzureRmResourceGroupDeployment -Name DWDeploy -ResourceGroupName DWRG `
+  -TemplateFile dwdeploy.json -storageAccountName ""dwstorage""","Completed","22/01/2017 10:47:00","22/01/2017 10:47:01"
+"125","New-AzureRmResourceGroupDeployment -Name DWDeploy -ResourceGroupName DWRG `
+  -TemplateFile dwdeploy.json -storageAccountName ""dwstorage2""","Completed","22/01/2017 10:53:00","22/01/2017 10:53:33"
+"126"," Get-AzureRmResourceProvider -ListAvailable","Completed","22/01/2017 11:04:47","22/01/2017 11:04:49"
+"127","(Get-AzureRmResourceProvider -ProviderNamespace Microsoft.Compute).ResourceTypes","Completed","22/01/2017 11:05:12","22/01/2017 11:05:13"
+"128","azure provider list","Completed","22/01/2017 11:05:46","22/01/2017 11:06:07"
+"129","Get-History","Completed","22/01/2017 11:25:15","22/01/2017 11:25:17"
+"130","New-AzureRmResourceGroupDeployment -Name DWDeploy -ResourceGroupName DWRG `
+  -TemplateFile dwdeploy.json","Stopped","22/01/2017 13:04:12","22/01/2017 13:04:16"
+"131","New-AzureRmResourceGroupDeployment -Name DWDeploy -ResourceGroupName DWRG `
+  -TemplateFile dwdeploy.json","Completed","22/01/2017 13:04:50","22/01/2017 13:04:51"
+"132","New-AzureRmResourceGroupDeployment -Name DWDeploy -ResourceGroupName DWRG `
+  -TemplateFile dwdeploy.json","Completed","22/01/2017 13:05:04","22/01/2017 13:05:05"
+"133","New-AzureRmResourceGroupDeployment -Name DWDeploy -ResourceGroupName DWRG `
+  -TemplateFile dwdeploy.json","Completed","22/01/2017 13:05:47","22/01/2017 13:06:23"
+"134","New-AzureRmResourceGroupDeployment -Name DWDeploy -ResourceGroupName DWRG `
+  -TemplateFile dwdeploy.json","Completed","22/01/2017 16:35:34","22/01/2017 16:35:55"
+"135","New-AzureRmResourceGroupDeployment -Name DWDeploy -ResourceGroupName DWRG `
+  -TemplateFile dwdeploy.json","Stopped","22/01/2017 16:36:38","22/01/2017 16:36:40"
+"136","New-AzureRmResourceGroupDeployment -Name DWDeploy -ResourceGroupName DWRG `
+  -TemplateFile dwdeploy.json","Completed","22/01/2017 16:37:15","22/01/2017 16:37:49"
+"137","New-AzureRmResourceGroupDeployment -Name DWDeploy -ResourceGroupName DWRG `
+  -TemplateFile dwdeploy.json -storageAccountName ""dwtry01""","Completed","22/01/2017 16:38:06","22/01/2017 16:38:12"
+"138","New-AzureRmResourceGroupDeployment -Name DWDeploy -ResourceGroupName DWRG `
+  -TemplateFile dwdeploy.json -storageAccountName ""dwtry02""","Completed","22/01/2017 16:38:19","22/01/2017 16:38:51"
+"139","Get-History","Completed","22/01/2017 16:42:54","22/01/2017 16:42:56"
+"140","New-AzureRmResourceGroup -Name DWRG -Location ""UK South""","Stopped","22/01/2017 16:43:04","22/01/2017 16:59:49"
+"141","(Get-AzureRmResourceProvider -ProviderNamespace Microsoft.Storage).ResourceTypes","Completed","22/01/2017 16:59:51","22/01/2017 16:59:52"
+"142"," Get-History","Completed","22/01/2017 17:28:17","22/01/2017 17:28:19"
+"143","pwd","Completed","22/01/2017 17:28:21","22/01/2017 17:28:21"
+"144","cd C:\sandbox\Azure\AllThingsAzure\DeploymentTemplates","Completed","22/01/2017 17:28:37","22/01/2017 17:28:37"
+"145","pwd","Completed","22/01/2017 17:28:39","22/01/2017 17:28:39"
+"146","New-AzureRmResourceGroupDeployment -Name DWDeploy -ResourceGroupName DWRG `
+  -TemplateFile .\ref.json -storageAccountName ""dwtry02""","Completed","22/01/2017 17:29:00","22/01/2017 17:41:53"
+"147","New-AzureRmResourceGroupDeployment -Name DWDeploy -ResourceGroupName DWRG `
+  -TemplateFile .\ref.json -storageAccountName ""dwtry02""","Stopped","22/01/2017 17:42:35","22/01/2017 17:42:39"
+"148","New-AzureRmResourceGroupDeployment -Name DWDeploy -ResourceGroupName DWRG `
+  -TemplateFile .\ref.json -storageAccountName ""dwtry02"" -virtualNetworkName DWvnn","Stopped","22/01/2017 17:43:00","22/01/2017 17:43:06"
+"149","New-AzureRmResourceGroupDeployment -Name DWDeploy -ResourceGroupName DWRG `
+  -TemplateFile .\ref.json -storageAccountName ""dwtry02"" -virtualNetworkName DWvnn -networkInterfaceName DWnin","Stopped","22/01/2017 17:43:21","22/01/2017 17:43:22"
+"150","New-AzureRmResourceGroupDeployment -Name DWDeploy -ResourceGroupName DWRG `
+  -TemplateFile .\ref.json -storageAccountName ""dwtry02"" -virtualNetworkName DWvnn -networkInterfaceName DWnin `
+-loadBalancerName DWlbn","Stopped","22/01/2017 17:43:49","22/01/2017 17:43:58"
+"151","New-AzureRmResourceGroupDeployment -Name DWDeploy -ResourceGroupName DWRG `
+  -TemplateFile .\ref.json -storageAccountName ""dwtry02"" -virtualNetworkName DWvnn -networkInterfaceName DWnin `
+-loadBalancerName DWlbn -adminUsername adguy","Stopped","22/01/2017 17:44:08","22/01/2017 17:44:26"
+"152","New-AzureRmResourceGroupDeployment -Name DWDeploy -ResourceGroupName DWRG `
+  -TemplateFile .\ref.json -storageAccountName ""dwtry02"" -virtualNetworkName DWvnn -networkInterfaceName DWnin `
+-loadBalancerName DWlbn -adminUsername adguy -vmName DWvmn","Completed","22/01/2017 17:44:42","22/01/2017 17:47:57"
+"153","Get-History","Completed","22/01/2017 17:58:41","22/01/2017 17:58:41"
+"154","Get-History |  clip","Completed","22/01/2017 17:58:46","22/01/2017 17:58:46"
+
