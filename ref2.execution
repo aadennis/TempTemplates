@@ -3,14 +3,23 @@ New-AzureRmResourceGroupDeployment -Name DWDeployNoLB -ResourceGroupName DWRG `
 -networkInterfaceName DWnolbnin -adminUsername adguy -vmName DWnolbvmn
 
 
+function prompt(){}
+$creds = Get-Credential
+$sub = "xxx"
+$account = "xx@hotmail.co.uk"
+$environment = "AzureCloud"
+$tenantId = "
 
 
 Login-AzureRmAccount
 New-AzureRmResourceGroup -Name DWRG -Location "UK South"
 #next line assumes that a) resource group DWRG already exists, b) that the template file ref2.json exists and has the right content
-# storage account name was be lower case, 3-15 characters
+# storage account name must be lower case, 3-15 characters
 # All values are effectively defaults:
 # The password for the admin account is not shared - make up your own one
 
 New-AzureRmResourceGroupDeployment -Name DWDeployNoLB -ResourceGroupName DWRG -TemplateFile .\ref2.json -storageAccountName "NoLB" -virtualNetworkName DWnolbvnn -networkInterfaceName DWnolbnin -adminUsername adguy -vmName DWnolbvmn
+
+New-AzureRmResourceGroupDeployment -Name DWDeploy -ResourceGroupName DWRG -TemplateFile .\ref2.json -storageAccountName "DWStorage" -virtualNetworkName "DWVnn" -networkInterfaceName "DWNin" -adminUsername "TheAdmin" -vmName "DWVm"
+
 
