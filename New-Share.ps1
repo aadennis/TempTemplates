@@ -10,7 +10,7 @@ if ($creds -eq $null) {
 }
 
 set-item wsman:\localhost\Client\TrustedHosts *.box.com -Force
-$session = New-PSSession -ComputerName $remoteServer -Credential $creds
+$session = New-PSSession -ComputerName $remoteServer -Credential $creds cc
 
 Invoke-Command -Session $session -ScriptBlock {
     $share = [WMICLASS]"Win32_Share"
